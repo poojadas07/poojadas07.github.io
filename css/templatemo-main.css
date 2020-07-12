@@ -928,20 +928,50 @@ nav a:hover::before {
 		font-size: 15px;
 	}
 
-
-	.fifth-content #map {
+	.fifth-content #contact {
 		padding: 15px 15px 15px 15px;
+	}
+
+}
+@media (max-width: 450px) {
+	
+	nav a {
+	  	padding: 15px 10px;
+	}
+
+	nav ul li em {
+		display: none;
+	}
+
+	nav ul li i {
+		width: 20px;
+		height: 20px;
+		line-height: 20px;
+		text-align: center;
+	}
+
+	.first-content {
+		padding: 30px 5px;
+	}
+
+	.first-content .main-btn {
+		display: inline-block;
+		margin-right: 0px;
+		margin-bottom: 15px;
+	}
+
+	.second-content .left-content {
+		padding: 30px;
+		text-align: left;
+	}
+
+	.fourth-content .item .hover-effect h2 {
+		font-size: 15px;
 	}
 
 	.fifth-content #contact {
 		padding: 15px 15px 15px 15px;
 	}
 
-}
-@media(max-width: 450px) {
-	
-	nav a {
-	  	padding: 15px 15px;
-	}
 }
 
