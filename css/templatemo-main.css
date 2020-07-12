@@ -772,7 +772,6 @@ nav a:hover::before {
 
 	nav {
 		top: 0vh;
-	    position: absolute;
 	    left: 0px;
 	    height: 45px;
 	    background-color: rgba(0,0,0,0.8);
@@ -790,6 +789,7 @@ nav a:hover::before {
 		margin-left: 40px;
 	  	list-style-type: none;
 		display: inline-block;
+		height: 40px;
 	}
 	nav ul li {
 		margin: 0;
@@ -892,6 +892,7 @@ nav a:hover::before {
 
 @media (max-width: 749px) {
 
+	
 	nav ul {
 		text-align: center;
 		margin-left: 0px;
