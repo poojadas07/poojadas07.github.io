@@ -729,6 +729,10 @@ nav a:hover::before {
     margin-bottom: -30px;
 }
 
+a:visited{
+	color: white !important;
+}
+
 .resumes {
 	padding: 12px;
 	width: 100%;
